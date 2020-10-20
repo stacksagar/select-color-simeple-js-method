@@ -1,0 +1,42 @@
+body{
+    background:#333;
+    color:#ddd;
+    padding:5px;
+}
+#sec{
+    width:100%;
+    overflow:hidden;
+    margin-bottom:20px;
+}
+.box{
+    width:12%;
+    height:200px;
+    margin:0.15%;
+    border:0.4px solid #999;
+    border-radius:3px;
+    display: inline-block;
+    float:left;
+    cursor:pointer;
+}
+h2{
+    font-weight: normal;
+    text-align: center;
+    background:#222;
+    border-radius:5px;
+    width:40%;
+    padding:20px;
+    margin: auto;
+    border:3px dotted #ddd;
+}
+#pickText{ 
+    font-family:arial;
+    font-size:22px !important;
+}
+#selected{ 
+    color:#ddd;
+    padding:7px 14px;
+    border-radius:30px 10px 30px 10px;
+    font-family:arial;
+    font-weight:normal;
+    font-size:15px !important;
+}
